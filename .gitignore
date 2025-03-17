@@ -1,0 +1,43 @@
+# Общие исключения для Python-проекта
+__pycache__/
+*.py[cod]
+*.so
+
+# Виртуальное окружение
+venv/
+.env
+
+# Логи и временные файлы
+logs/
+*.log
+debug.log
+*.out
+
+# Конфигурационные файлы и токены
+*.env
+config.json
+
+# Файлы данных
+*.csv
+*.pickle
+*.pkl
+*.npz
+*.npy
+*.db
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.iml
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Репозиторий TensorFlow
+saved_model/
+checkpoints/
+*.ckpt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
